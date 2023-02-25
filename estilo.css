@@ -11,20 +11,29 @@ body {
 .foto {
   width: 60%;
   height: 60%;
-  border-radius: 40px;
+  border-radius: 50px;
   border-top: 20px;
   border-color: orangered;
-  border: 2px solid orangered;
+  border-style: dotted;
+  border-width: 2px;
 }
 
 h1 {
   color: white;
   margin-top: 31px;
   margin-bottom: 8px;
+  font-family: verdana;
 }
 
 p {
-  color: white;
+  color: orangered;
+  font-size: larger;
+
+}
+
+p:hover {
+
+  color: orange;
 }
 
 ul {
@@ -40,9 +49,12 @@ a {
   background-color: orangered;
   color: white;
   padding: 15px;
+  width: 90%;
   text-decoration: none;
   display: block;
-  border-radius: 5px;
+  border-radius: 50px;
+  border-style: dotted;
+  border-width: 2px;
 }
 
 a:hover {
